@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Goods</string>
+    <string-array name="cities">
+        <item>Ваш город</item>
+
+        <item>Алматы</item>
+        <item>Нур-султан</item>
+        <item>Шымкент</item>
+        <item>Караганда</item>
+        <item>Актобе</item>
+        <item>Тараз</item>
+        <item>Павлодар</item>
+        <item>Усть-Каменогорск</item>
+        <item>Семей</item>
+        <item>Костанай</item>
+        <item>Атырау</item>
+        <item>Актау</item>
+        <item>Кокшетау</item>
+        <item>Кызылорда</item>
+        <item>Петропавловск</item>
+        <item>Талдыкорган</item>
+        <item>Туркестан</item>
+        <item>Уральск</item>
+    </string-array>
+    <string name="title_activity_goods_main">GoodsMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
+
+

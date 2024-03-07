@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:ellipsize="end"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Goods"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/poisk_magazin"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/geraltbutton"
+
+        android:drawableBottom="@drawable/ic_home_black_24dp"
+        android:drawablePadding="-30dp"
+        android:text="Найти магазин"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/poisk_tovar"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_gravity="center"
+
+
+        android:background="@drawable/ofbutton"
+        android:drawableBottom="@drawable/ic_shopping_cart_black_24dp"
+        android:drawablePadding="-30dp"
+        android:text="Найти товар"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</RelativeLayout>

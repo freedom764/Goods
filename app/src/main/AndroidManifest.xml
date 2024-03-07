@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goods">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ForgotPassword"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name=".ChangeCustomer"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Order"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityForOrders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityForTovarOrder"
+            android:label="Товар"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityForTovar"
+            android:label="Товар"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MagazinSpisokTovarov"
+            android:label="Список товаров"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Magazin"
+            android:label="Магазин"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PoiskTovar"
+            android:label="Список товаров"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PoiskMagazin"
+            android:label="Список магазинов"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangeSeller"
+            android:label="Изменение пароля"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpisokShowed"
+            android:label="Список товаров"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PortyashyesyaSpisok"
+            android:label="Список товаров"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateTovar"
+            android:label="Изменение товара"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateTovarFirebase"
+            android:label="Изменение товара"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DobavlenyeTovara"
+            android:label="Добавление товара"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SellerSpisokTovarov"
+            android:label="Список товаров"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GoodsSellerOpenTovar"
+            android:label="Товар"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GoodsSeller"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GoodsCustomer"
+            android:screenOrientation="portrait" />
+        <activity android:name=".GoodsMain"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".RegCustomer"
+            android:label="Регистрация"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegSeller"
+            android:label="Регистрация"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Choose"
+            android:label="Выбор"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Вход"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
